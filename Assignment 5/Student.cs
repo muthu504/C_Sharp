@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using System;
-namespace Assignment5
+namespace PushPop
 {
     public class Stdudent
     {
@@ -10,7 +10,7 @@ namespace Assignment5
             stack1.Push(1);
             stack1.Push("Employee");
             stack1.Push(70.2);
-            stack1.Push("Bhargav");
+            stack1.Push("mutyalarao");
             foreach (Object obj in stack1)
             {
                 Console.WriteLine("different types of data" + ":" + obj);
