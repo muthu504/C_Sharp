@@ -8,8 +8,8 @@ namespace PushPop
         {
             Stack stack1 = new Stack();
             stack1.Push(1);
-            stack1.Push("Employee");
-            stack1.Push(70.2);
+            stack1.Push("Employe");
+            stack1.Push(30.2);
             stack1.Push("mutyalarao");
             foreach (Object obj in stack1)
             {
