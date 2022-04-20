@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TeamPlayerClasses
+namespace TeamPlayerClass
 {
     internal class Team : Player, IEnumerable  //class Team extends Player, implements IEnumerable
     {
@@ -54,35 +54,35 @@ namespace TeamPlayerClasses
             Console.ReadLine();
             List<Team> myList = new List<Team>();
             Team t1 = new Team();
-            t1.Name = "Virat";
-            t1.surName = "Kohli";
+            t1.Name = "vasanth";
+            t1.surName = "mani";
             Team t2 = new Team();
-            t2.Name = "Rahul";
-            t2.surName = "Reddy";
+            t2.Name = "vagdevi";
+            t2.surName = "Ravipalli";
             Team t3 = new Team();
-            t3.Name = "MS";
-            t3.surName = "Dhoni";
+            t3.Name = "tarun";
+            t3.surName = "teja";
             Team t4 = new Team();
-            t4.Name = "KL";
-            t4.surName = "Rahul";
+            t4.Name = "jannu";
+            t4.surName = "jan";
             Team t5 = new Team();
-            t5.Name = "Rohit";
-            t5.surName = "Sharma";
+            t5.Name = "Venu";
+            t5.surName = "gopal";
             Team t6 = new Team();
-            t6.Name = "Rishab";
-            t6.surName = "Pant";
+            t6.Name = "bindhu";
+            t6.surName = "aaditala";
             Team t7 = new Team();
-            t7.Name = "Mayank ";
-            t7.surName = "Agarwal";
+            t7.Name = "Bhavani ";
+            t7.surName = "Shankar";
             Team t8 = new Team();
-            t8.Name = "Manish";
-            t8.surName = "Pandey";
+            t8.Name = "manikanta";
+            t8.surName = "ravi";
             Team t9 = new Team();
-            t9.Name = "Harshal";
-            t9.surName = "Patel";
+            t9.Name = "chitti";
+            t9.surName = "babu";
             Team t10 = new Team();
-            t10.Name = "Suresh";
-            t10.surName = "Raina";
+            t10.Name = "raghu";
+            t10.surName = "varma";
             Team t11 = new Team();
             t11.Name = "Tilak";
             t11.surName = "Varma";
@@ -112,27 +112,27 @@ namespace TeamPlayerClasses
             Console.ReadLine();
 
             Player player1Scored = new Player();
-            player1Scored.Runs = 74;
+            player1Scored.Runs = 77;
             Player player2Scored = new Player();
-            player2Scored.Runs = 65;
+            player2Scored.Runs = 88;
             Player player3Scored = new Player();
-            player3Scored.Runs = 35;
+            player3Scored.Runs = 22;
             Player player4Scored = new Player();
-            player4Scored.Runs = 115;
+            player4Scored.Runs = 180;
             Player player5Scored = new Player();
-            player5Scored.Runs = 141;
+            player5Scored.Runs = 14;
             Player player6Scored = new Player();
-            player6Scored.Runs = 121;
+            player6Scored.Runs = 188;
             Player player7Scored = new Player();    
-            player7Scored.Runs = 0;
+            player7Scored.Runs = 5;
             Player player8Scored = new Player();    
-            player8Scored.Runs = 15;
+            player8Scored.Runs = 7;
             Player player9Scored = new Player();
-            player9Scored.Runs = 05;
+            player9Scored.Runs = 144;
             Player player10Scored = new Player();
-            player10Scored.Runs = 51;
+            player10Scored.Runs = 143;
             Player player11Scored = new Player();
-            player11Scored.Runs = 02;
+            player11Scored.Runs = 09;
 
             List<Player> playerList = new List<Player>();   
             playerList.Add(player1Scored);
