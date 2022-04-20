@@ -15,9 +15,9 @@ namespace Assignment5
             int[] arr = new int[6] {7 ,10,80,2,11,55 };
             // Creating an empty array  
             int[] arr2 = new int[6];
-            string[] arr3 = new string[3] 
+            string[] arr3 = new string[2] 
             { 
-                "Korrai", "Bhargav", "KB"
+                "Jami", "Mutyalarao"
             };
             Console.Write("string array elements: ");
             PrintStr(arr3);
