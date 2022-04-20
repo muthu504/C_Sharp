@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignment6
+namespace deleemployee
 { /*UniCast Delegate*/
     public delegate void EmployeeDelegate();
     public class UniCastDelegate
