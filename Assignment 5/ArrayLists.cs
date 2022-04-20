@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Collections;
 
-namespace Assignment5
+namespace ArraysAssignmnet
 {
     class Employee
     {
