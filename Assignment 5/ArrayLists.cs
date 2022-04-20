@@ -23,9 +23,9 @@ namespace ArraysAssignmnet
         {
             ArrayList e = new ArrayList();//non generic
             List<Employee> Li = new List<Employee>();//Generic
-            Employee e1 = new Employee(1, "Korrai");
-            Employee e2 = new Employee(2, "Bhargav");
-            Employee e3 = new Employee(3, "Charan");
+            Employee e1 = new Employee(1, "vasant");
+            Employee e2 = new Employee(2, "vagdevi");
+            Employee e3 = new Employee(3, "Bindhu");
             Li.Add(e1);
             Li.Add(e2);
             Li.Add(e3);
