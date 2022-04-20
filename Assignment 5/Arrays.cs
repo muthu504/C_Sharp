@@ -12,7 +12,7 @@ namespace Assignment5
         static void Main(string[] args)
         {
             // Creating an array  
-            int[] arr = new int[6] { 5,20,10,8,1,50 };
+            int[] arr = new int[6] {7 ,10,80,2,11,55 };
             // Creating an empty array  
             int[] arr2 = new int[6];
             string[] arr3 = new string[3] 
