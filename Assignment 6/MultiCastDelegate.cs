@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignment6
+namespace multicastDelegate
 { /*Multicaste Delegate*/
     public delegate void EmployeeDelegate();
     public class MultiCastDelegate
